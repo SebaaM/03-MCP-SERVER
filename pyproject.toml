@@ -1,0 +1,8 @@
+[project]
+name = "mcp-lab-03-django-adapter"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["django>=5.0", "mcp[cli]>=2.0.0"]
+
+[tool.uv]
+package = false
